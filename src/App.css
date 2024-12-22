@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+}
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(40, 40, 43);
+  margin: 3px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 35px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #2f2c2c;
+}
+
+form input.equal {
+  width : 125px;
+  border-radius: 30px;
+  background-color: #c27039;
+}
+form input.equal:hover {
+  color: #c27039;
+  background-color: rgb(255, 255, 255);
+}
+form input.delete {
+  background-color: rgb(209, 222, 234);
+  color: #000000;
+}
+form input.delete:hover {
+  background-color: #2f2c2c;
+  color: rgb(255, 255, 255);
+}
+form input.maths {
+  background-color: #c27039;
+}
+form input.maths:hover {
+  color: #c27039;
+  background-color: rgb(255, 255, 255);
+}
+form input.number {
+  transition: .3s;
+}
+form input.number:hover {
+  animation: pulse 1s;
+  background-color: #c27039;
+  transition: .3s;
+  box-shadow: 0 0 5px 0 #ffffff inset, 0 0 5px 2px #fcfcfc;
+  border: 3px solid #fbfcfc;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
