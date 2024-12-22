@@ -17,7 +17,7 @@ My Calculator is a Created using Using React js,JavaScript,HTML and CSS.In this 
 
 ## Features
 - Addition
-- Subraction
+- Subtraction
 - Division
 - Multiplication
 
