@@ -1,7 +1,7 @@
 # Calculator
-Welcome to My Caluculator web app!
+Welcome to My Calculator web app!
 
-### Weblink: [Live Website]()
+### Weblink: [Live Website](https://calculatorbymesairam.netlify.app/)
 ## Some Images:
 <img width="450px;" src="https://res.cloudinary.com/dz1zt2xfc/image/upload/v1734876376/calci_ros3r0.png" />
 
